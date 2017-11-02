@@ -1,6 +1,6 @@
 function fun = MathModel_min_fun(x)
-%MATHMODEL_MIN_FUN 此处显示有关此函数的摘要
-%   目标函数
+%MATHMODEL_MIN_FUN 姝ゅ鏄剧ず鏈夊叧姝ゅ嚱鏁扮殑鎽樿
+%   鐩爣鍑芥暟
 
 fun=x(1)^2+x(2)^2+8;
 
