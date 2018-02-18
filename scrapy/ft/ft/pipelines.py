@@ -17,9 +17,13 @@
 #    aritcle = item['title']+item['en'] + item['zh']
 #    self.f.write(aritcle)
 #   return item
+import pymysql
+
+
 class FtPipeline(object):
     # def open_spider(self, spider):
-    #    self.f = open("FT中文网双语新闻 - FT中文网.txt", "w")
+    #    self.db = pymysql.connect(
+    #        host="localhost", user="root", password="Mac199707", db="article", port=3306)
 
     def process_item(self, item, spider):
 
@@ -32,5 +36,18 @@ class FtPipeline(object):
         except:
             pass
 
-   # def close_spider(self, spider):
-   #     f.close()
+        f.close()
+        '''
+        # self.db = pymysql.connect(host="localhost", user="root",
+        #                          password="Mac199707", db="article", port=3306)
+        cur = self.db.cursor()
+        sql_insert = "insert into ft(title,content_en,content_zh) values(% s, % s,% s)"
+        try:
+            cur.execute(sql_insert, (item['title'], item['en'], item['zh']))
+            self.db.commit()
+        except:
+            pass
+        '''
+
+    #def close_spider(self, spider):
+    #    self.db.close()
