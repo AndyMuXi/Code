@@ -115,9 +115,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="00Test.c" />
     <ClCompile Include="01TestCode.c" />
     <ClCompile Include="02List.c" />
     <ClCompile Include="03MaxList.c" />
+    <ClCompile Include="04Age.c" />
+    <ClCompile Include="05CreditCard.c" />
+    <ClCompile Include="06VerTheArray.c" />
+    <ClCompile Include="07Parameter.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStruct.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

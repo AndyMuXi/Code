@@ -24,5 +24,25 @@
     <ClCompile Include="03MaxList.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="04Age.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="00Test.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="05CreditCard.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="06VerTheArray.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="07Parameter.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

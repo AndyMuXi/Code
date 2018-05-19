@@ -26,3 +26,4 @@ class HtmlOutputer(object):
         fout.write("</body>")
         fout.write("</html>")
         fout.close()
+        

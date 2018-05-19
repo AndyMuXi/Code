@@ -27,7 +27,7 @@ class FtPipeline(object):
     #            host="localhost", user="root", password="Mac199707", db="article", port=3306)
 
     def process_item(self, item, spider):
-        '''
+
         fname = item['title'].replace('/', '').replace('\n', '')
 
         f = open("FT中文网" + fname + ".txt", "w", encoding='utf-8')
@@ -50,6 +50,7 @@ class FtPipeline(object):
             db.commit()
         except:
             pass
+         '''
 
     # self.db = pymysql.connect(host="localhost", user="root",
     #                          password="Mac199707", db="article", port=3306)

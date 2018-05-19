@@ -80,21 +80,21 @@
 //}
 
 
-#include<stdio.h>
-#include<stdlib.h>
-int main() {
-	char calc[100];
-	int i,j ;
-	for (i = 0; i < 100; i++) {
-		calc[i] = getchar();
-		if (calc[i] == '=') {
-			break;
-		}
-	}
-	for (i = 0; i < 100; i++) {
-		if (calc[i] >= '0' && calc[i] <= '9') {
-		
-		}
-	}
-	system("pause");
-}
+//#include<stdio.h>
+//#include<stdlib.h>
+//int main() {
+//	char calc[100];
+//	int i,j ;
+//	for (i = 0; i < 100; i++) {
+//		calc[i] = getchar();
+//		if (calc[i] == '=') {
+//			break;
+//		}
+//	}
+//	for (i = 0; i < 100; i++) {
+//		if (calc[i] >= '0' && calc[i] <= '9') {
+//		
+//		}
+//	}
+//	system("pause");
+//}
